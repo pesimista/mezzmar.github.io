@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MezzMar</title>
+  <style type="text/css" >
+  body
+  {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: #6f6d65;
+    background-color: #f7f7f7;
+    --color: #4383c5;
+  }
+  h1
+  {
+    font-family: Consolas,monaco,monospace;
+    font-weight: 900;
+    letter-spacing:  -.05em;
+    font-size: 6rem;
+    margin: 120px 0 1rem;
+    display: inline-block;
+    color: var(--color);
+
+  }
+  h2, h3
+  {
+    font-family: serif, console;
+    font-weight: 100;
+    font-size: 50px;
+    line-height: 1.5;
+    margin: .5em 0;
+  }
+  h2
+  {
+    color: #3e5155;
+    font-weight: 300;
+  }
+  h3
+  {
+    font-size: 1.5rem;
+    line-height: 1.15;
+  }
+  img
+  {
+    max-width: 275px;
+    max-height: 275px;
+    border-radius: 3em;
+    border: 2px solid gray;
+  }
+  /*img:hover
+  {
+    transform: scale(1.05);
+  }*/
+  nav
+  {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1;
+      --size: 15px;
+      --percentage: 100%;
+  }
+  .bar
+  {
+    position: fixed;
+    background-color: var(--color);
+  }
+  .top
+  {
+    top: 0px;
+    left: 0px;
+    width: var(--percentage);
+    height: var(--size);
+  }
+  .bottom
+  {
+    bottom: 0px;
+    left: 0px;
+    width: var(--percentage);
+    height: var(--size);
+  }
+  .right
+  {
+    top: 0px;
+    left: 0px;
+    height: var(--percentage);
+    width: var(--size);
+  }
+  .left
+  {
+    top: 0px;
+    right: 0px;
+    height: var(--percentage);
+    width: var(--size);
+  }
+  button
+  {
+    margin: 3rem 10px 0;
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 50%;
+    padding: 0px;
+  }
+  a
+  {
+    text-decoration: none;
+  }
+  a:hover, button:hover
+  {
+    cursor: pointer;
+  }
+  .Projects
+  {
+    background-color: var(--color);
+    padding: 30px;
+    color: #fff;
+    margin: 0 -30px;
+    margin-top: 6rem;
+  }
+  .card
+  {
+    padding: 15px;
+    margin: 0 auto 15px;
+    text-align: center;
+  }
+  
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="bar top" ></div>
+    <div class="bar bottom" ></div>
+    <div class="bar left" ></div>
+    <div class="bar right" ></div>
+  </nav>
+  <div style="margin: 30px" >
+    <h1>
+      Hello there!
+    </h1>
+    <h2>My name is Gary</h2>
+    <h3>I'm a 19 years old web developer and I am currently studying software engineering</h3>
+    <a href="https://github.com/MezzMar">
+    <button type="button" >
+        <svg height="32px" aria-label="github-logo" viewBox="0 0 16 16" version="1.1" width="32px" role="img">
+              <path style="fill: rgb(25,25,25)" fillRule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z">
+              </path>
+        </svg>
+    </button>
+    </a>
+    <a href="https://twitter.com/MeszMar_">
+    <button type="button" >
+        <svg height="32px" aria-label="github-logo" viewBox="0 0 16 16" version="1.1" width="32px" role="img">
+              <path style="fill: rgb(25,25,25)" fillRule="evenodd" d="M16 3.038c-.59.26-1.22.437-1.885.517.677-.407 1.198-1.05 1.443-1.816-.634.375-1.337.648-2.085.795-.598-.638-1.45-1.036-2.396-1.036-1.812 0-3.282 1.468-3.282 3.28 0 .258.03.51.085.75C5.152 5.39 2.733 4.084 1.114 2.1.83 2.583.67 3.147.67 3.75c0 1.14.58 2.143 1.46 2.732-.538-.017-1.045-.165-1.487-.41v.04c0 1.59 1.13 2.918 2.633 3.22-.276.074-.566.114-.865.114-.21 0-.416-.02-.617-.058.418 1.304 1.63 2.253 3.067 2.28-1.124.88-2.54 1.404-4.077 1.404-.265 0-.526-.015-.783-.045 1.453.93 3.178 1.474 5.032 1.474 6.038 0 9.34-5 9.34-9.338 0-.143-.004-.284-.01-.425.64-.463 1.198-1.04 1.638-1.7z">
+              </path>
+        </svg>
+    </button>
+    </a>   
+    <br>
+    <h2 class="Projects" >Projects I have worked on</h2>
+    <div style="margin-top: 30px; display: flex; flex-wrap: wrap" >
+      <div class="card" >
+          <a href="./Bandcamp-Copy/">
+            <img src="./media/bandcamp-logo-white2.png" alt="bancamp">
+          </a>
+        </div>
+      <div class="card" >
+        <a href="./entornodomestico">
+          <img src="./media/entorno_logo.jpg" alt="entorno">
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
