@@ -6,6 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>MezzMar</title>
   <style type="text/css" >
+  html, body
+  {
+    scroll-behavior: smooth;
+  }
   body
   {
     margin: 0px;
@@ -66,6 +70,7 @@
     border-color: transparent;
     padding: 0px;
     font-size: 18px; 
+    text-decoration: none;
   }
   .about__me
   {
@@ -189,9 +194,9 @@
     </h1>
     <h2>My name is Gary</h2>
     <p>
-      <button class="Info__button" >About me</button><span class="highlight" > | </span>
-      <button class="Info__button" >Projects</button><span class="highlight" > | </span> 
-      <button class="Info__button" >Contact</button></p>
+      <a href="#Aboutme" class="Info__button" >About me</a><span class="highlight" > | </span>
+      <a href="#Projects" class="Info__button" >Projects</a><span class="highlight" > | </span> 
+      <a href="contact" class="Info__button" >Contact</a></p>
     <a href="https://github.com/MezzMar" target="_new" >
     <button class="icon" type="button" >
         <svg height="32px" aria-label="github-logo" viewBox="0 0 16 16" version="1.1" width="32px" role="img">
@@ -216,7 +221,7 @@
         </button>
       </a> 
     <br>
-    <section>
+    <section id="Aboutme">
       <h2 class="Projects">About me</h2>
       <div  class="about__me" >
         <h3 class="about__title" >Who I am</h3>
@@ -231,7 +236,7 @@
       </div>
     </section>
     
-    <section>
+    <section id="Projects" >
       <h2 class="Projects" >Projects I've done</h2>
       <div style="margin: 30px 24px; display: flex; flex-wrap: wrap" >
         <div class="card" >
@@ -252,7 +257,7 @@
       </div>
     </section>
 
-    <section class="end__point" >
+    <section class="end__point" id="contact" >
         <h2 class="Projects" style="margin: 0px; margin-top: 6rem" >Contact me</h2>
         <p class="about__text">I'm Currently available for work. If you have a project you'd like to discuss, then please get in touch with me</p>
         <p>nadirgary@gmail.com</p>
